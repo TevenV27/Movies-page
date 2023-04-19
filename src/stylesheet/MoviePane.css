@@ -1,0 +1,68 @@
+h1{
+    color: rgb(255, 250, 235);
+}
+h3{
+    padding: 0.7rem;
+}
+
+.movie-pane{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1D1D1D;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 0px 50px 0px;
+    font-family: Arial,Helvetica, sans-serif;
+    font-size: small;
+}
+.movie-box{
+    max-width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: antiquewhite;
+
+    border-radius: 15px;
+    overflow-x: hidden;
+    cursor: pointer;
+   
+
+}
+
+.img-movie{
+    
+    max-width: 208px;
+    border-radius: 15px;
+}
+
+.movie-message{
+    display: flex;
+    justify-content: center;
+    background: #161616 ;
+    font-family:  Arial, sans-serif
+}
+
+.button-box{
+    padding-bottom: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+}
+
+button{
+    padding: 15px;
+    width: 220px ;
+    height: 60px;
+    background-color: #ffbb00;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ffbb00da;
+}
